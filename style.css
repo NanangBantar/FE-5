@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    background-color: hsl(217, 28%, 15%);
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.container{
+    padding: 60px 100px;
+    /* background-color: hsl(218, 28%, 13%); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container:nth-child(3){
+    padding: 0px 100px !important;
+    background-color: hsl(218, 28%, 13%);
+}
+
+.container .container-top{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-top img{
+    height: 30px;
+}
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+}
+
+.navbar ul li{
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+.navbar ul li:hover{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.container .container-bigimg{
+    padding: 40px 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.container-textimg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    background-image: url(images/bg-curvy-desktop.svg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+.container-textimg div{
+    width: 50%;
+    margin: 0 0 40px 0;
+}
+
+.container-textimg .p-textimg{
+    width: 40% !important;
+    line-height: 1.8;
+}
+
+.container-textimg .bnt-textimg button{
+    padding: 15px 80px;
+    border: none;
+    border-radius: 30px;
+    font-size: 18px;
+    background-color: hsl(198, 60%, 50%);
+    color: white;
+}
+
+.container-textimg .bnt-textimg button:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+
+.container:nth-child(3) .container-4{
+    display: flex;
+    width: 90%;
+}
+
+.konten{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 20px;
+}
+
+.konten img{
+    height: 70px;
+    margin: 0 0 15px 0;
+}
+
+.konten h3{
+    margin: 10px 0;
+}
+
+.konten p{
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.4;
+    width: 80%;
+    margin: 0 0 80px 0;
+}
+
+.container:nth-child(4){
+    background-color: hsl(218, 28%, 13%);
+}
+
+.container:nth-child(4) .container-4{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+}
+
+.container:nth-child(4) .container-4 div{
+    width: 100%;
+}
+
+.container:nth-child(4) .container-4 div:nth-child(2){
+    width: 100%;
+    padding: 0 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container:nth-child(4) .container-4 div:nth-child(2) p{
+   margin: 20px 0 0 0;
+   line-height: 1.4;
+}
+
+.container:nth-child(4) .container-4 div:nth-child(2) p:last-child{
+    display: flex;
+    align-items: center;
+}
+
+.container:nth-child(4) .container-4 div:nth-child(2) p:last-child:hover{
+    text-decoration: underline;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.container:nth-child(5){
+    background-color: hsl(218, 28%, 13%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 40px !important;
+}
+
+.container-3card{
+    background-image: url(images/bg-quotes.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    display: flex;
+    margin: 0 0 200px 0;
+}
+
+.card-3{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 35px 20px;
+    padding: 30px 30px;
+    background-color: hsl(219, 30%, 18%);
+    height: fit-content;
+    box-shadow: 8px 8px 2px 1px rgba(58, 58, 58, 0.9);
+}
+
+.card-3 p{
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.card-3 .img-team{
+    display: flex;
+    align-items: center;
+    margin: 20px 0 0 0;
+}
+
+.card-3 .img-team img{
+    border-radius: 50%;
+    height: 30px;
+    margin: 0 15px 0 0;
+}
+
+.card-3 .img-team p{
+    font-size: 10px;
+}
+
+.card-earlyaccess{
+    width: 70%;
+    margin: -150px auto 0 auto;
+    height: fit-content;
+    background-color: hsl(219, 24%, 19%);
+    border-radius: 3px;
+    box-shadow: 8px 8px 2px 1px rgba(58, 58, 58, 0.9);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0 40px 0;
+}
+
+.card-earlyaccess p{
+   margin: 30px 0;
+   width: 80%;
+   text-align: center;
+   font-size: 16px;
+}
+
+.card-earlyaccess div{
+    display: flex;
+    width: 80%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-earlyaccess input{
+    width: 450px;
+    border-radius: 30px;
+    padding: 15px 0px;
+    border: none;
+    text-indent: 40px;
+}
+
+.card-earlyaccess button{
+    padding: 15px 60px;
+    border: none;
+    border-radius: 30px;
+    font-size: 18px;
+    background-color: hsl(198, 60%, 50%);
+    color: white;
+}
+
+.card-earlyaccess button:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+
+.footer{
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    margin: 100px 20 100px 20px; 
+    height: fit-content;
+    padding: 100px 40px 40px 40px; 
+}
+
+.footer .img-footer-logo{
+    height: 30px;
+    margin: 10px 0 40px 0;
+}
+
+.footer-text{
+    display: flex;
+}
+
+.footer-text div{
+    width: 100%;
+    display: flex;
+}
+
+.text-1 img{
+    height: 20px;
+}
+
+.text-1 p{
+    margin: 0 20px;
+}
+
+.text-2{
+    display: flex;
+    flex-direction: column;
+}
+
+.text-2 img{
+    height: 20px;
+    margin: 0 20px 0 0;
+}
+
+.text-2 div{
+    margin: 0 0 20px 0;
+    display: flex;
+    align-items: center;
+}
+
+.text-3{
+    justify-content: center;
+}
+
+.text-3 ul{
+    list-style: none;
+}
+
+.text-3 li{
+    margin: 0 0 20px 0;
+}
+
+.text-3 li:hover{
+   cursor: pointer;
+   font-weight: bold;
+   text-decoration: underline;
+}
